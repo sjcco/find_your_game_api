@@ -11,5 +11,6 @@ RSpec.describe Game, type: :model do
     it { should validate_presence_of(:year) }
     it { should validate_numericality_of(:year) }
     it { should validate_presence_of(:developer) }
+    it { should validate_presence_of(:image_url) }
   end
 end
